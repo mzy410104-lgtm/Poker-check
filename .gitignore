@@ -1,0 +1,26 @@
+# Android 垃圾文件
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# Android Studio 生成的
+.navigation/
+captures/
+freeline/
+
+# Python 垃圾文件
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+/python_training/datasets/
+/python_training/runs/
