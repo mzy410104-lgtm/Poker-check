@@ -24,8 +24,7 @@ def main():
         data=data_path,  # 使用这个变量
         epochs=50,
         imgsz=640,
-        plots=True,
-        amp = False
+        plots=True
     )
     
     model.export(format='tflite')
